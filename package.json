@@ -1,0 +1,20 @@
+{
+  "name": "eigenlayer-rescue-operation",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start:permit": "bun run src/permit.ts",
+    "start:transfer": "bun run src/transfer.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@flashbots/ethers-provider-bundle": "^0.6.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2"
+  }
+}
